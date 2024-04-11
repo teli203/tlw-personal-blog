@@ -5,3 +5,37 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: rgb(230, 215, 171);
 }
+
+.container {
+    display: grid;
+    width: 80vw;
+    margin: auto;
+    grid-template-columns: 35vw 35vw;
+    grid-template-rows: 45vh 45vh;
+    grid-gap: 25px;
+    grid-template-areas: "top top" "bottomLeft bottomRight";
+    flex-direction: row;
+    justify-content: center; 
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(18, 18, 18);
+    padding: 15px;
+}
+
+#one {
+    grid-area: top;
+}
+
+#two {
+   grid-area: bottomLeft;
+}
+
+#three {
+    grid-area: bottomRight;
+}
