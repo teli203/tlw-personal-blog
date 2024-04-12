@@ -15,6 +15,11 @@ body {
 .logo {
     font-size: 50px;
     padding: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.logo:hover {
+    cursor: default;
 }
 
 .nav-links {
@@ -28,6 +33,18 @@ body {
 .nav-links {
     gap: 2rem;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: rgb(230, 230, 230);
+}
+
+a:hover {
+    color: rgb(246, 241, 230);
+    text-decoration: underline;
+    text-underline-offset: .6rem;
 }
 
