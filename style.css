@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: rgba(91, 123, 91, 0.616);
+    background-color: rgba(112, 114, 112, 0.616);
 }
 
 html {
@@ -88,4 +88,30 @@ section {
     height: 100px;
     width: 100px;
     margin: auto 0;
+}
+
+.section_text {
+    align-self: center;
+    text-align: center;
+}
+
+.section_text_p1 {
+    font: 1rem;
+    text-align: center;
+}
+
+.details-container {
+    padding: 2rem;
+    margin: 1rem;
+    background-color: rgb(215, 215, 215);
+    border: 1.5px solid black;
+    box-shadow: 0 0 10px rgb(4, 4, 4);
+}
+
+.profile-list {
+    padding: 2rem;
+    margin: 1rem;
+    background-color: rgb(215, 215, 215);
+    border: 1.5px solid black;
+    box-shadow: 0 0 10px rgb(4, 4, 4);
 }
