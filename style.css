@@ -2,7 +2,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+*{
+  margin: 0;
+  padding: 0;  
+}
+
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(231, 230, 229);
+    background-color: rgba(91, 123, 91, 0.616);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    font-weight: 400;
+    color: rgb(29, 28, 28);
 }
