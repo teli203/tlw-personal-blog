@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-*{
+* {
   margin: 0px;
   padding: 10px;  
 }
@@ -46,5 +46,13 @@ a:hover {
     color: rgb(246, 241, 230);
     text-decoration: underline;
     text-underline-offset: .6rem;
+}
+
+/* Sections */
+
+section {
+    padding-top: 4.5rem;
+    padding-bottom: 2rem;
+    margin: 0 8rem;
 }
 
