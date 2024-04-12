@@ -12,10 +12,14 @@ body {
     background-color: rgba(112, 114, 112, 0.616);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .logo {
     font-size: 50px;
     padding: 20px;
-    box-shadow: 0 0 10px black;
+   
 }
 
 .logo:hover {
@@ -63,5 +67,18 @@ section {
 }
 
 .section_pic_container {
-    display: flex;
+    display: flex;    
+}
+
+.section_text {
+    align-self: center;
+}
+
+.section_text_p1 {
+    text-align: center;
+}
+
+.section_text_p2 {
+    text-align: left;
+    font-size: 1rem;
 }
