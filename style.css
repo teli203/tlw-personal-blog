@@ -142,3 +142,16 @@ section {
     height: 2.5rem;
    border: 2px solid black;
 }
+
+
+#about {
+    position: relative;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: wrap;
+}
+.about-container {
+    display: flex;
+}
