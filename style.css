@@ -78,4 +78,14 @@ section {
 
 .section-container {
     display: flex;
+    justify-content: center;
+    gap: 6rem;
+    height: 80vh;
+}
+
+.section_pic_container {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin: auto 0;
 }
