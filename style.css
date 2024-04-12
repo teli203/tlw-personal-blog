@@ -96,8 +96,18 @@ section {
 }
 
 .section_text_p1 {
-    font: 1rem;
+    font-size: 1.2rem;
     text-align: center;
+}
+
+.section_text_p2 {
+    font-size: 1rem;
+    text-align: left;
+}
+
+.section_text_p3 {
+    font-size: 1rem;
+    font-style: italic;
 }
 
 .details-container {
@@ -109,9 +119,26 @@ section {
 }
 
 .profile-list {
+    text-align: left;
     padding: 2rem;
     margin: 1rem;
     background-color: rgb(215, 215, 215);
     border: 1.5px solid black;
     box-shadow: 0 0 10px rgb(4, 4, 4);
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.icon {
+    cursor: pointer;
+    height: 2.5rem;
+}
+
+.icons {
+    cursor: pointer;
+    height: 2.5rem;
+   border: 2px solid black;
 }
