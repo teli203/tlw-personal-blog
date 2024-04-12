@@ -56,3 +56,12 @@ section {
     margin: 0 8rem;
 }
 
+/* Profile Section */
+
+#profile {
+  gap: 5rem; 
+}
+
+.section_pic_container {
+    display: flex;
+}
