@@ -46,7 +46,6 @@ html {
 a {
     color: black;
     text-decoration: none;
-    text-decoration-color: rgb(230, 230, 230);
 }
 
 a:hover {
@@ -120,11 +119,10 @@ section {
     height: 2rem;
 }
 
-.icons {
+.email-icon {
     cursor: pointer;
-    height: 2.2rem;
+    height: 2.3rem;
 }
-
 
 
 
