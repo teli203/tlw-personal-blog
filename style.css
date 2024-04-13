@@ -70,14 +70,13 @@ section {
 
 .section_pic_container {
     display: flex;
-
 }
 
 .section_pic_container img {
     position: relative;
-    left: -95px;
-    height: 50vh;
-    width: 30vw;
+    left: -200px;
+    height: 60vh;
+    width: 40vw;
     padding-top: 50px;
     margin: 50px;
 }
