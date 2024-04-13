@@ -9,7 +9,10 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: rgba(112, 114, 112, 0.616);
+    background-image: url(/assets/concrete-wall-exposed-white-concrete-texture-with-cracked-detail.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 html {
@@ -94,6 +97,5 @@ section {
     margin-bottom: 4.5rem;
     font-size: 1.1rem;
     font-style: bold;
-    color: rgb(47, 47, 47);
-    box-shadow: 0 0 8px rgb(4, 4, 4);
+    color: rgb(3, 3, 3);
 }
