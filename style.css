@@ -70,7 +70,15 @@ section {
 }
 
 .section_pic_container {
-    display: flex;    
+    display: flex;
+
+}
+
+.section_pic_container img {
+    height: 50vh;
+    width: 30vw;
+    padding-top: 50px;
+    margin: 50px;
 }
 
 .section_text {
@@ -115,10 +123,8 @@ section {
     height: 2.2rem;
 }
 
-.check-icon {
-    cursor: pointer;
-    height: 2rem;
-}
+
+
 
 
 
