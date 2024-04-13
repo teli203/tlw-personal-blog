@@ -108,6 +108,11 @@ section {
     color: rgb(3, 3, 3);
 }
 
+.section_text_p4 {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
 .title {
     font-size: 3rem;
     text-align: center;
@@ -121,6 +126,19 @@ section {
 .email-icon {
     cursor: pointer;
     height: 4rem;
+}
+
+/* Email */
+
+input {
+    padding: 1rem;
+    width: 10rem;
+    border: 1.5px solid black;
+    border-radius: 3px; 
+}
+
+label {
+    font-size: 1.3rem;
 }
 
 /* Button */
@@ -145,6 +163,8 @@ button:hover {
     cursor: pointer;
     background-color: rgb(141, 142, 142);
 }
+
+
 
 
 
