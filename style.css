@@ -50,7 +50,7 @@ a {
 }
 
 a:hover {
-    color: rgb(246, 241, 230);
+    color: rgb(150, 3, 3);
     text-decoration: underline;
     text-underline-offset: .6rem;
 }
@@ -75,6 +75,8 @@ section {
 }
 
 .section_pic_container img {
+    position: relative;
+    left: -95px;
     height: 50vh;
     width: 30vw;
     padding-top: 50px;
