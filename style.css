@@ -218,7 +218,7 @@ button:hover {
     filter:drop-shadow(10px 7px 10px black);
 }
 
-.subscribe-container { 
+.subscribe-email-container { 
     display: center;
     justify-content: center;
     border: .2rem solid black;
@@ -228,6 +228,14 @@ button:hover {
     padding: 0.5rem;
     filter:drop-shadow(10px 7px 10px black);
 }
+
+.subscribe-email {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
 
 .follow-container {
     display: center;
