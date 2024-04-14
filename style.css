@@ -183,6 +183,38 @@ button:hover {
     background-color: rgb(141, 142, 142);
 }
 
+.about-container {
+    display: center;
+    justify-content: center;
+    border: .2rem solid black;
+    border-radius: 2rem;
+    background:rgb(33, 33, 33);
+    color: whitesmoke;
+    margin: 2rem auto;
+    padding: 0.5rem;
+    filter:drop-shadow(10px 7px 10px black);
+}
+
+.subscribe-container { 
+    display: center;
+    justify-content: center;
+    border: .2rem solid black;
+    border-radius: 2rem;
+    background:rgb(250 250 250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.follow-container {
+    display: center;
+    justify-content: center;
+    border: .2rem solid black;
+    border-radius: 2rem;
+    background:rgb(250 250 250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
 #contact {
     display: flex;
     justify-content: center;
@@ -194,7 +226,7 @@ button:hover {
     display: flex;
     justify-content: center;
     text-align: center;
-    border: .1rem solid black;
+    border: .2rem solid black;
     border-color: black;
     background: whitesmoke;
     border-radius: 4rem;
