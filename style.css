@@ -209,10 +209,10 @@ button:hover {
 .about-container {
     display: center;
     justify-content: center;
-    border: .2rem solid black;
+    border: 1.4rem solid black;
     border-radius: 2rem;
-    background:rgb(62, 62, 62);
-    color: whitesmoke;
+    background:rgb(175, 174, 174);
+    color: rgb(0, 0, 0);
     margin: 2rem auto;
     padding: 0.5rem;
     filter:drop-shadow(10px 7px 10px black);
