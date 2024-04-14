@@ -190,23 +190,22 @@ button:hover {
     height: 70vh;
 }
 
-.contact-container {
+.contact-info-upper-container {
     display: flex;
     justify-content: center;
-    border: .2rem solid black;
-    border-radius: 2rem;
-    background:rgb(250 250 250);
+    text-align: center;
+    border: .1rem solid black;
+    border-color: black;
+    background: whitesmoke;
+    border-radius: 4rem;
     margin: 2rem auto;
     padding: 0.5rem;
 }
 
-
-
-
-
-
-
-
+.contact-icon {
+    cursor: pointer;
+    height: 3rem;
+}
 
 
 
