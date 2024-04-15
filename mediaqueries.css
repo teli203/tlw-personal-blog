@@ -1,0 +1,15 @@
+@media screen and (max-width: 1400px) {
+   #profile {
+    height: 80vh;
+    margin-bottom: 6rem;
+   }
+
+   #about {
+    flex-wrap: wrap;
+   }
+
+   #subscribe-and-follow,
+   #contact {
+    height: fit-content;
+   }
+}
