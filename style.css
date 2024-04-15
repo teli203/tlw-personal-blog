@@ -1,8 +1,8 @@
 /* General */
 
 * {
-  margin: 0px;
-  padding: 10px;  
+    margin: 0px;
+    padding: 10px;  
 }
 
 .container {
@@ -154,7 +154,6 @@ section {
     font-family: 'Melodrama', serif;
     
  }
-
 
 .avatar-pic {
     display: block;
