@@ -24,7 +24,8 @@ html {
 }
 
 .logo {
-    font-size: 50px;
+    font-family: 'Melodrama', serif;
+    font-size: 70px;
     padding: 20px;
     border: 0 solid transparent;
     border-radius: 6.5rem;
@@ -143,9 +144,17 @@ section {
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
+   
 }
+
+#title-catcher {
+    font-size: 3rem;
+    font-family: 'Melodrama', serif;
+    
+ }
+
 
 .avatar-pic {
     display: block;
