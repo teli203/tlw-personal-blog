@@ -19,7 +19,7 @@
 }
 
 .grid-item-2 {
-    grid-column: 1 / -1;
+    grid-column: span 3;
 }
 
 .grid-item-3 {
@@ -63,9 +63,12 @@
 }
 
 .grid-item-11 {
+    grid-column: span 1;
+}
+/*.grid-item-11 {
     grid-column-start: 3;
     grid-column-end: 5;
-}
+}*/
 
 .grid-item-12 {
     grid-column: 1 / -1;
