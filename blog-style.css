@@ -4,8 +4,11 @@ body {
 }
 
 .grid-item {
+    text-align: center;
+    font-weight: 700;
+    padding: 30px;
     border: 1px solid rgb(1, 1, 1);
-    padding: 15px; 
+    border-radius: 2.5rem;
 }
 
 .grid-container_1 {
