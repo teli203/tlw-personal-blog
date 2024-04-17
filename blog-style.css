@@ -17,58 +17,58 @@
     padding: 15px; 
 }
 
-.grid-item-1 {
+.grid-item-1_blog-header {
     grid-column: 1 / -1;
 }
 
-.grid-item-2 {
+.grid-item-2_webdev-header {
     grid-column: span 3;
 }
 
-.grid-item-3 {
+.grid-item-3_f-end {
     grid-row-start: 3;
     grid-row-end: 5;
 }
 
-.grid-item-4 {
+.grid-item-4_gems {
     grid-row-start: 3;
     grid-row-end: 5;
 }
 
-.grid-item-5 {
+.grid-item-5_b-end {
     grid-row-start: 3;
     grid-row-end: 5;
 }
 
-.grid-item-6 {
+.grid-item-6_ai {
     grid-row-start: 5;
     grid-row-end: 7;
 }
 
-.grid-item-7 {
+.grid-item-7_cloud {
     grid-row-start: 5;
     grid-row-end: 7;
 }
 
-.grid-item-8 {
+.grid-item-8_tech {
     grid-row-start: 5;
     grid-row-end: 7;
 }
 
-.grid-item-9 {
+.grid-item-9_guest {
     grid-row-start: 3;
     grid-row-end: 7;
 }
 
-.grid-item-10 {
+.grid-item-10_hma {
     grid-column-start: 1;
     grid-column-end: 3;
 }
 
-.grid-item-11 {
+.grid-item-11_archive {
     grid-column: span 1;
 }
 
-.grid-item-12 {
+.grid-item-12_footer {
     grid-column: 1 / -1;
 }
