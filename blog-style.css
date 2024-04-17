@@ -25,24 +25,39 @@
     grid-column-end: -1;
 }
 
-.grid-item- {
+.grid-item-2 {
     grid-column-start: 1;
-    grid-column-end: -1;
+    grid-column-end: 3;
 }
 
-.grid-item- {
+.grid-item-3 {
     grid-column-start: 1;
-    grid-column-end: -1;
+    grid-column-end: 3;
 }
 
-.grid-item- {
+.grid-item-4 {
     grid-column-start: 1;
-    grid-column-end: -1;
+    grid-column-end: 3;
 }
 
-.grid-item- {
-    grid-column-start: 1;
-    grid-column-end: -1;
+.grid-item-5 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.grid-item-6 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.grid-item-7 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.grid-item-8 {
+    grid-column-start: 3;
+    grid-column-end: 5;
 }
 
 .grid-item-14 {
