@@ -1,14 +1,18 @@
 
 body {
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(88, 86, 86);
+
 }
 
 .grid-item {
     text-align: center;
     font-weight: 700;
+    font-size: 25px;
     padding: 30px;
-    border: 1px solid rgb(1, 1, 1);
-    border-radius: 2.5rem;
+    border: 0 solid transparent;
+    border-radius: 3rem;
+    box-shadow: 0 8px 0 8px black;
+    filter:drop-shadow(10px 7px 10px black);
 }
 
 .grid-container_1 {
@@ -18,12 +22,13 @@ body {
     grid-gap: 100px;
     justify-content: center;
     align-content: center;
+ 
     
 
 
 
     margin: 15px;
-    margin-bottom: 35px;    
+    margin-bottom: 165px;    
     padding: 50px;
     font-family: 'Kalam', cursive;
     font-family: 'Panchang', sans-serif;
