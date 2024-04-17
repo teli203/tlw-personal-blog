@@ -2,7 +2,9 @@
     display: grid;
     grid-template-columns: 250px 250px;
     grid-auto-rows: minmax(150px, auto);
-    grid-row-gap: 25px;
+    grid-row-gap: 45px;
+    grid-column-gap: 55px;
+    grid-template-areas: "header header";
     border: 2px solid black;
     padding: 15px;
 }
@@ -10,4 +12,8 @@
 .grid-item {
     border: 1px solid rgb(1, 1, 1);
     padding: 15px; 
+}
+
+.grid-item-1 {
+    grid-area: header;
 }
