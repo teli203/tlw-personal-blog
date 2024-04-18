@@ -20,7 +20,7 @@ body {
 
 .grid-container_1 {
     display: grid;
-    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-columns: repeat(4, 250px);
     grid-auto-rows: minmax(150px, auto);
     grid-gap: 100px;
     justify-content: center;
@@ -51,9 +51,10 @@ body {
 
 .grid-container_2 {
     display: grid;
-    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-columns: repeat(4, 250px);
     grid-auto-rows: minmax(150px, auto);
-    grid-gap: 100px;
+    grid-row-gap: 100px;
+    grid-column-gap: 100px;
     justify-content: center;
     align-content: center;
     background-image: url(/assets/concrete-wall-exposed-white-concrete-texture-with-cracked-detail.jpg);
@@ -91,7 +92,7 @@ body {
     grid-column-end: 3;
 }
 
-.grid-item-5_trends {
+.grid-item-5_learn {
     grid-column-start: 3;
     grid-column-end: 5;
 }
