@@ -110,8 +110,15 @@ body {
 }
 
 /* Header */
+#header {
+    padding: 23px;
+}
 
 #header:hover {
+    cursor: default;
+}
+
+.grid-container_2 {
     cursor: default;
 }
 
@@ -121,6 +128,9 @@ body {
     font-family: 'Melodrama', serif;
     font-size: 70px;
     padding: 20px;
+    border: 0 solid transparent;
+    border-radius: 6.5rem;
+    filter:drop-shadow(10px 7px 10px black);
 }
 
 .nav-links {
@@ -144,6 +154,26 @@ a:hover {
     text-decoration: underline;
     text-underline-offset: .6rem;
     filter:drop-shadow(10px 7px 10px black);
+}
+
+button {
+    font-weight: 600;
+    background-color: rgb(68, 68, 68);
+    color: rgb(239, 239, 239);
+    padding: 1rem;
+    width: 10rem;
+    border: 1.5px solid black;
+    border-radius: 3.5px;
+    filter:drop-shadow(10px 7px 10px black);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(141, 142, 142);
+}
+
+.btn {
+    color: whitesmoke;
 }
 
 /* Intro */
