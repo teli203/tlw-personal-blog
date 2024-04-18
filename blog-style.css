@@ -3,6 +3,14 @@ body {
     background: rgb(72, 72, 72);
 }
 
+.container {
+    overflow: hidden;
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
 /* All Grids layout */
 
 .grid-item {
@@ -103,10 +111,13 @@ body {
 
 /* Header */
 
+#header:hover {
+    cursor: default;
+}
+
 .grid-item-1_blog-header {
     display: flex;
     justify-content: center;
-    padding: 15px;
     font-family: 'Melodrama', serif;
     font-size: 70px;
     padding: 20px;
