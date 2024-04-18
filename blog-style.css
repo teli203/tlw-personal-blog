@@ -178,7 +178,17 @@ button:hover {
 
 /* Intro */
 
-
+.avatar-pic {
+    display: block;
+    height: 80vh;
+    width: 50vw;
+    padding-top: 50px;
+    margin: 0 auto;
+    border: 0 solid transparent;
+    border-radius: 8rem;
+    box-shadow: 0 10px 0 10px black;
+    filter:drop-shadow(10px 7px 10px black);
+}
 
 
 
