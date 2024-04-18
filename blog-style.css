@@ -22,21 +22,16 @@ body {
     grid-gap: 100px;
     justify-content: center;
     align-content: center;
- 
-    
-
-
-
+    background-image: url(/assets/concrete-wall-exposed-white-concrete-texture-with-cracked-detail.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 15px;
     margin-bottom: 165px;    
     padding: 50px;
     font-family: 'Kalam', cursive;
     font-family: 'Panchang', sans-serif;
     font-weight: 450;
-    background-image: url(/assets/concrete-wall-exposed-white-concrete-texture-with-cracked-detail.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     border: 0 solid transparent;
     border-radius: 6.5rem;
     box-shadow: 0 8px 0 8px black;
@@ -57,9 +52,6 @@ body {
     grid-gap: 100px;
     justify-content: center;
     align-content: center;
-    
-
-
     background-image: url(/assets/concrete-wall-exposed-white-concrete-texture-with-cracked-detail.jpg);
     background-size: cover;
     background-position: center;
