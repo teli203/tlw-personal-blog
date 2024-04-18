@@ -1,6 +1,6 @@
 
 body {
-    background-color: rgb(88, 86, 86);
+    background: rgb(72, 72, 72);
 }
 
 /* All Grids layout */
@@ -10,10 +10,6 @@ body {
     font-weight: 700;
     font-size: 25px;
     padding: 30px;
-    border: 0 solid transparent;
-    border-radius: 3rem;
-    box-shadow: 0 8px 0 8px black;
-    filter:drop-shadow(10px 7px 10px black);
 }
 
 /* Grid 1 layout */
@@ -25,7 +21,7 @@ body {
     grid-gap: 100px;
     justify-content: center;
     align-content: center;
-    background-image: url(/assets/concrete-wall-exposed-white-concrete-texture-with-cracked-detail.jpg);
+    background-color: rgb(241, 245, 244);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -57,7 +53,7 @@ body {
     grid-column-gap: 100px;
     justify-content: center;
     align-content: center;
-    background-image: url(/assets/concrete-wall-exposed-white-concrete-texture-with-cracked-detail.jpg);
+    background-color: rgb(241, 245, 244);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -104,3 +100,16 @@ body {
 .grid-item-7_footer {
     grid-column: 1 / -1;
 }
+
+/* Header */
+
+.grid-item-1_blog-header {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-family: 'Melodrama', serif;
+    font-size: 70px;
+    padding: 20px;
+}
+
+/* Intro */
