@@ -93,11 +93,13 @@ body {
 }
 
 .grid-item-4_tech {
-    grid-column: span 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 .grid-item-5_trends {
-    grid-column: span 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
 }
 
 .grid-item-6_archive {
