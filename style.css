@@ -24,6 +24,8 @@ html {
 }
 
 .logo {
+    display: flex;
+    justify-content: center;
     font-family: 'Melodrama', serif;
     font-size: 70px;
     padding: 20px;
