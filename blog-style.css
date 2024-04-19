@@ -1,0 +1,21 @@
+.grid-item {
+border: 1px solid rgb(226, 129, 171);
+padding: 15px;
+}
+
+.grid-container_1 {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 100px;
+}
+
+.grid-container_2 {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 100px;
+}
+
+
+
