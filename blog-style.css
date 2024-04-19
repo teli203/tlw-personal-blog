@@ -50,7 +50,6 @@ body {
     justify-content: center;
     font-family: 'Melodrama', serif;
     font-size: 50px;
-    border: 10px solid rgb(206, 53, 53);
     padding: 15px;
 }
 
@@ -214,7 +213,6 @@ grid-row: span 2;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 10px solid rgb(206, 53, 53);
     padding: 15px;
 }
 
