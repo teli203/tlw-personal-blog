@@ -1,4 +1,6 @@
-.container {
+/* header */
+
+.container-1 {
     display: grid;
     margin-bottom: 50px;
     grid-template-columns: span 1 / -1;
@@ -8,17 +10,47 @@
     padding: 45px;
 }
 
-.box {
+.box-1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Melodrama', serif;
+    font-size: 50px;
     border: 10px solid rgb(206, 53, 53);
     padding: 15px;
 }
 
+.box-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Melodrama', serif;
+    font-size: 50px;
+    border: 10px solid rgb(206, 53, 53);
+    padding: 15px;
+}
+
+.box-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Melodrama', serif;
+    font-size: 50px;
+    border: 10px solid rgb(206, 53, 53);
+    padding: 15px;
+}
+
+#header {
+    padding: 23px;
+}
+
+#header:hover {
+    cursor: default;
+}
+
 /* open wide screen to make sure grid are on the rigth track */
 
-
+/* Body */
 
 .container-2 {
     display: grid;
@@ -67,7 +99,7 @@ grid-row: span 2;
 }
 /* open wide screen to make sure grid are on the rigth track */
 
-
+/* Footer */
 
 .container-3 {
     display: grid;
