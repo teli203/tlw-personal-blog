@@ -1,35 +1,30 @@
 .container {
     display: grid;
-    width: 80vw;
-    margin: auto;
-    grid-template-columns: 35vw 35vw;
-    grid-template-rows: 45vh 45vh;
-    grid-gap: 25px;
-    grid-template-areas: "top top" "bottomLeft bottomRight";
-    flex-direction: row;
+    margin-bottom: 50px;
+    grid-template-columns: span 1 / -1;
+    grid-auto-rows: minmax(150px, auto);
     justify-content: center; 
     border: 2px solid black;
-    padding: 15px;
+    padding: 45px;
 }
 
 .box {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgb(226, 129, 171);
+    border: 10px solid rgb(206, 53, 53);
     padding: 15px;
 }
 
-
+/* open wide screen to make sure grid are on the rigth track */
 
 
 
 .container-2 {
     display: grid;
-    width: 80vw;
     margin: auto;
-    grid-template-columns: 35vw 35vw;
-    grid-template-rows: 45vh 45vh;
+    grid-template-columns: 850px 450px;
+    grid-auto-rows: minmax(250px, auto);
     grid-gap: 25px;
     grid-template-areas: "top top" "bottomLeft bottomRight";
     flex-direction: row;
@@ -42,29 +37,53 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgb(226, 129, 171);
+    border: 10px solid rgb(206, 53, 53);
     padding: 15px;
 }
 
+#one {
+    grid-column: 1 / -1; 
+
+}
+
+#two {
+    grid-row: span 3;
+}
+
+#three {
+    grid-row: span 3;
+}
+
+#four {
+
+}
+
+#five {
+grid-row: span 2;
+}
+
+#six {
+
+}
+/* open wide screen to make sure grid are on the rigth track */
+
+
+
 .container-3 {
     display: grid;
-    width: 80vw;
-    margin: auto;
-    grid-template-columns: 35vw 35vw;
-    grid-template-rows: 45vh 45vh;
-    grid-gap: 25px;
-    grid-template-areas: "top top" "bottomLeft bottomRight";
-    flex-direction: row;
+    margin-top: 50px;
+    grid-template-columns: span 1 / -1;
+    grid-auto-rows: minmax(150px, auto);
     justify-content: center; 
     border: 2px solid black;
-    padding: 15px;
+    padding: 45px;
 }
 
 .box-3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgb(226, 129, 171);
+    border: 10px solid rgb(206, 53, 53);
     padding: 15px;
 }
 
