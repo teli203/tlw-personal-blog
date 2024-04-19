@@ -19,8 +19,21 @@ body {
     background-repeat: no-repeat;
 }
 
+.text-article {
+    font-size: 25px;
+    font-family: 'Melodrama', serif;
+    width: 1200px;
+    padding: 20px;
+    margin-top: 150px;
+    text-align: justify;
+}
+
 /* header */
 
+#one {
+    grid-column: 1 / -1; 
+
+}
 .container-1 {
     display: grid;
     margin-bottom: 50px;
@@ -105,17 +118,6 @@ button:hover {
     color: whitesmoke;
 }
 
-.box-2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Melodrama', serif;
-    font-size: 50px;
-    border: 10px solid rgb(206, 53, 53);
-    padding: 15px;
-}
-
-
 #header {
     padding: 23px;
 }
@@ -124,35 +126,79 @@ button:hover {
     cursor: default;
 }
 
+
+
 /* open wide screen to make sure grid are on the rigth track */
 
 /* Body */
 
+
+
 .container-2 {
     display: grid;
-    margin: auto;
     grid-template-columns: 850px 450px;
     grid-auto-rows: minmax(250px, auto);
     grid-gap: 25px;
-    grid-template-areas: "top top" "bottomLeft bottomRight";
     flex-direction: row;
     justify-content: center; 
     border: 2px solid black;
     padding: 15px;
 }
 
+.avatar-pic {
+    display: block;
+    height: 80vh;
+    width: 50vw;
+    padding-top: 50px;
+    margin: 0 auto;
+    border: 0 solid transparent;
+    border-radius: 8rem;
+    box-shadow: 0 10px 0 10px black;
+    filter:drop-shadow(10px 7px 10px );
+}
+
+.greeting {
+    font-family: 'Telma', cursive;
+    font-size: 105px;
+    font-weight: 200;
+}
+
+
+
+.credentials {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    padding: 15px;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.credentials-list {
+    display: flex;
+    gap: 3rem;
+    padding: 25px;
+    margin-top: 100px;
+    list-style: none;
+    font-size: .90rem;
+}
+
 .box-2 {
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
+    font-family: 'General Sans', sans-serif;
+    font-size: 25px;
     border: 10px solid rgb(206, 53, 53);
     padding: 15px;
+    margin-bottom: 150px;
 }
 
-#one {
-    grid-column: 1 / -1; 
 
-}
+
 
 #two {
     grid-row: span 3;
@@ -163,7 +209,7 @@ button:hover {
 }
 
 #four {
-
+    
 }
 
 #five {
