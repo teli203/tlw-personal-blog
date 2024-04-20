@@ -225,6 +225,10 @@ h3 {
     filter:drop-shadow(10px 7px 10px );
 }
 
+#three-a {
+    grid-column: span 2;
+}
+
 #three {
     grid-row: span 1;
 }
