@@ -18,10 +18,6 @@
 
 body {
     background: linear-gradient(to right, rgb(182, 181, 181), rgb(110, 97, 79), rgb(137, 119, 94));
-   /* background-image: url(/assets/concrete-wall-exposed-white-concrete-texture-with-cracked-detail.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;*/
 }
 
 .text-article {
