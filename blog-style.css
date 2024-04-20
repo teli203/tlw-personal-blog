@@ -17,7 +17,7 @@
 }
 
 body {
-    background:rgb(170, 170, 169);
+    background: linear-gradient(to right, rgb(182, 181, 181), rgb(110, 97, 79), rgb(137, 119, 94));
    /* background-image: url(/assets/concrete-wall-exposed-white-concrete-texture-with-cracked-detail.jpg);
     background-size: cover;
     background-position: center;
@@ -92,7 +92,7 @@ a {
 }
 
 a:hover {
-    color: rgb(150, 3, 3);
+    color: rgb(215, 213, 213);
     text-decoration: underline;
     text-underline-offset: .6rem;
     filter:drop-shadow(10px 7px 10px black);
@@ -138,7 +138,7 @@ button:hover {
     justify-content: center;
     font-family: 'Panchang', sans-serif;
     font-size: 15px;
-    border: 10px double rgb(227, 227, 227);
+    border: 10px double rgb(35, 34, 34);
     padding: 15px;
     margin-bottom: 15px;
 }
