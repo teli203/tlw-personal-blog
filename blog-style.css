@@ -17,10 +17,11 @@
 }
 
 body {
-    background-image: url(/assets/concrete-wall-exposed-white-concrete-texture-with-cracked-detail.jpg);
+    background:rgb(53, 51, 51);
+   /* background-image: url(/assets/concrete-wall-exposed-white-concrete-texture-with-cracked-detail.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
 }
 
 .text-article {
@@ -48,7 +49,7 @@ body {
     border: 1rem solid black;
     border-radius: 2rem;
 
-    color: rgb(0, 0, 0);
+    color: rgb(228, 227, 227);
     margin: 2rem auto;
     padding: 0.5rem;
 
@@ -58,7 +59,7 @@ body {
     border: 0 solid transparent;
     border-radius: 6.5rem;
     box-shadow: 0 8px 0 8px black;
-    filter:drop-shadow(10px 7px 10px white);
+    filter:drop-shadow(10px 7px 10px rgb(5, 5, 5));
 }
 
 .box-1 {
@@ -104,7 +105,7 @@ a:hover {
 
 button {
     font-weight: 600;
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(4, 4, 4);
     color: rgb(239, 239, 239);
     padding: 1rem;
     width: 10rem;
@@ -142,7 +143,7 @@ button:hover {
     justify-content: center;
     font-family: 'Panchang', sans-serif;
     font-size: 15px;
-    border: 10px solid rgb(206, 53, 53);
+    border: 10px solid rgb(253, 252, 252);
     padding: 15px;
     margin-bottom: 15px;
 }
@@ -154,7 +155,7 @@ button:hover {
     grid-gap: 25px;
     flex-direction: row;
     justify-content: center; 
-    border: 2px solid black;
+    border: 2.5px solid black;
     padding: 15px;
 }
 
