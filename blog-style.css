@@ -1,9 +1,6 @@
 /* General */
 
-* {
-    margin: 0px;
-    padding: 10px;  
-}
+
 
 .container {
     overflow: hidden;
@@ -127,6 +124,7 @@ button:hover {
 /* open wide screen to make sure grid are on the rigth track */
 
 /* Body Grid 2  */
+
 .box-2 {
     display: flex;
     text-align: center;
@@ -140,19 +138,21 @@ button:hover {
 }
 
 .container-2 {
+    
     display: grid;
-    grid-template-columns: 850px 500px;
+    grid-template-columns: 600px 500px;
     grid-auto-rows: minmax(250px, auto);
-    grid-gap: 25px;
+    grid-gap: 50px;
     flex-direction: row;
     justify-content: center; 
     border: 2.5px solid black;
     box-shadow: 0 6px 0 6px black;
    
-    padding: 15px;
+    padding: 20px;
 }
 
 #one {
+    grid-column: span 2;
     grid-row: span 2;
 }
 
@@ -202,6 +202,7 @@ h3 {
 /* guest */
 
 #two {
+    grid-column: span 2;
     grid-row: span 2;
 }
 
