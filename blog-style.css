@@ -142,7 +142,7 @@ button:hover {
     display: grid;
     grid-template-columns: 600px 500px;
     grid-auto-rows: minmax(250px, auto);
-    grid-gap: 50px;
+    gap: 250px;
     flex-direction: row;
     justify-content: center; 
     border: 2.5px solid black;
