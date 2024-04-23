@@ -83,6 +83,7 @@ a:hover {
 
 .dropdown-menu li a {
     color: rgb(217, 216, 216);
+    border-radius: .3rem;
     text-decoration: none;
 }
 
