@@ -324,6 +324,11 @@ button:hover {
     height: 3rem;
 }
 
+.contact-link:hover {
+    border-radius: .3rem;
+    background-color: rgb(68, 68, 68);
+}
+
 .footer-container {
     display: center;
     justify-content: center;
