@@ -201,6 +201,11 @@ section {
     filter:drop-shadow(10px 7px 10px rgb(250, 249, 249));
 }
 
+.icon:hover {
+    border-radius: .5rem;
+    background-color: rgb(190, 177, 158);
+}
+
 .icon {
     cursor: pointer;
     height: 3.3rem;
