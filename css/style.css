@@ -140,8 +140,12 @@ section {
     filter:drop-shadow(10px 7px 10px black);
 }
 
+#question {
+    margin-top: 125px;
+}
+
 #crying-coder {
-    margin-top: 650px;
+    margin-top: 585px;
 }
 
 .section_text {
