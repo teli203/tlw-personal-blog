@@ -153,7 +153,7 @@ section {
     
  }
 
-.avatar-pic {
+.blog-post-card {
     display: block;
     height: 80vh;
     width: 50vw;
@@ -162,7 +162,7 @@ section {
     border: 0 solid transparent;
     border-radius: 8rem;
     box-shadow: 0 10px 0 10px black;
-    filter:drop-shadow(10px 7px 10px black);
+    filter:drop-shadow(10px 7px 10px rgb(250, 249, 249));
 }
 
 .icon {
