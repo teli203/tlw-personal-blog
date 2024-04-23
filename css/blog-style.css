@@ -26,6 +26,13 @@ body {
     text-align: justify;
 }
 
+.box-text {
+    padding: 35px;
+    margin-top: 200px;
+    text-align: justify;
+    justify-content: center;
+}
+
 /* header Grid 1*/
 
 #zero {
