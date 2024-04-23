@@ -70,7 +70,26 @@ a:hover {
     z-index: 1;
 }
 
+.dropdown-menu li {
+    padding: 10px;
+}
 
+.dropdown-menu li a {
+    color: rgb(217, 216, 216);
+    text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+    background-color: rgb(148, 145, 143);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    list-style: none;
+    border: .1rem solid black;
+    border-radius: 2rem;
+    filter:drop-shadow(10px 7px 10px black);
+}
 /* Sections */
 
 section {
