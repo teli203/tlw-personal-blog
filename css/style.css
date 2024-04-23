@@ -140,6 +140,10 @@ section {
     filter:drop-shadow(10px 7px 10px black);
 }
 
+#crying-coder {
+    margin-top: 650px;
+}
+
 .section_text {
     align-self: center;
 }
