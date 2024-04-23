@@ -62,6 +62,15 @@ a:hover {
     filter:drop-shadow(10px 7px 10px black);
 }
 
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(68, 68, 68);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
 /* Sections */
 
 section {
