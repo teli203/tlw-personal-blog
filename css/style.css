@@ -158,12 +158,17 @@ section {
     filter:drop-shadow(10px 7px 10px black);
 }
 
-#question {
-    margin-top: 125px;
+#profile {
+    display: flex;
 }
 
-#crying-coder {
-    margin-top: 585px;
+.section_pic_container {
+    display: flex;
+}
+
+.section_pic_container img {
+   
+    width: 100%;
 }
 
 .section_text {
