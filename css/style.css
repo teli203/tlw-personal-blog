@@ -176,7 +176,8 @@ section {
 }
 
 .section_text_p {
-    text-align: left;
+    text-align: justify;
+    padding: 1.2rem;
     margin-bottom: 1.2rem;
     font-size: 1.2rem;
 }
@@ -186,12 +187,12 @@ section {
 }
 
 .section_text_p2 {
-    text-align: left;
+    text-align: justify;
     font-size: 1rem;
 }
 
 .section_text_p3 {
-    text-align: left;
+    text-align: justify;
     margin-bottom: 4.5rem;
     font-size: 1.1rem;
     font-style: bold;
