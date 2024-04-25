@@ -147,7 +147,7 @@ section {
 
 .section_pic_container img {                    /* Question mark img & Crying Coder */
     position: relative;
-    left: -200px;
+    left: -215px;
     min-height: 50vh;
     width: 100%;
     padding-top: 50px;
@@ -159,10 +159,6 @@ section {
 }
 
 #profile {
-    display: flex;
-}
-
-.section_pic_container {
     display: flex;
 }
 
