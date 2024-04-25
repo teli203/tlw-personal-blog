@@ -41,7 +41,7 @@ span {
     grid-column: 1 / -1; 
 
 }
-.container-1 {
+.head-container {
     display: grid;
     margin-bottom: 50px;
     grid-template-columns: span 1 / -1;
@@ -59,7 +59,7 @@ span {
     filter:drop-shadow(10px 7px 10px rgb(233, 232, 232));
 }
 
-.box-1 {
+.hd_b-1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,13 +68,17 @@ span {
     padding: 15px;
 }
 
-#headers {
+#titles {
     display: flex;
     justify-content: center;
     font-family: 'Melodrama', serif;
     font-size: 70px;
-    padding: 20px;
+    padding: 23px;
 
+}
+
+#titles:hover {
+    cursor: default;
 }
 
 .nav-links {
@@ -118,14 +122,6 @@ button:hover {
 
 .btn {
     color: whitesmoke;
-}
-
-#header {
-    padding: 23px;
-}
-
-#header:hover {
-    cursor: default;
 }
 
 .dropdown-menu {
