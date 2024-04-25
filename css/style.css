@@ -29,7 +29,6 @@ html {
     border: 2.5px solid black;
     box-shadow: 0 6px 0 6px black;
     filter:drop-shadow(10px 7px 10px rgb(233, 232, 232));
-   
 }
 
 .logo:hover  {
@@ -44,7 +43,7 @@ h6:hover {
    display: flex;
    justify-content: space-around;
    align-items: center;
-   height: 10vh;
+   min-height: 10vh;
    padding: 15px;
 }
 
@@ -101,8 +100,8 @@ a:hover {
 
 #search {
     padding: .5rem;
-    height: 3.5vh;
-    width: 8rem;
+    min-height: 3.5vh;
+    max-width: 8rem;
     border: 1.5px solid black;
     border-radius: 3.4px; 
 }
@@ -110,8 +109,8 @@ a:hover {
 #btn-1 {
     padding: .5rem;
     margin-bottom: .6rem;
-    height: 5vh;
-    width: 5rem;
+    min-height: 5vh;
+    max-width: 5rem;
     border: 1.5px solid black;
     border-radius: 3.4px;  
 }
@@ -145,11 +144,12 @@ section {
     display: flex;
 }
 
-.section_pic_container img {
+
+.section_pic_container img {                    /* Question mark img & Crying Coder */
     position: relative;
     left: -200px;
-    height: 60vh;
-    width: 40vw;
+    min-height: 50vh;
+    width: 100%;
     padding-top: 50px;
     margin: 50px;
     border: 0 solid transparent;
@@ -164,11 +164,6 @@ section {
 
 .section_pic_container {
     display: flex;
-}
-
-.section_pic_container img {
-   
-    width: 100%;
 }
 
 .section_text {
@@ -218,13 +213,11 @@ section {
 #title-catcher {
     font-size: 3rem;
     font-family: 'Melodrama', serif;
-    
  }
 
 .blog-post-card {
     display: block;
-    height: 80vh;
-    width: 40vw;
+    max-width: 20rem;
     padding-top: 50px;
     margin: 0 auto;
     border: 0 solid transparent;
@@ -240,19 +233,19 @@ section {
 
 .icon {
     cursor: pointer;
-    height: 3.3rem;
+    min-height: 1rem;
 }
 
 .email-icon {
     cursor: pointer;
-    height: 4rem;
+    min-height: 2rem;
 }
 
 /* Email */
 
 input {
     padding: 1rem;
-    width: 10rem;
+    max-width: 10rem;
     border: 1.5px solid black;
     border-radius: 3.4px; 
 }
@@ -274,7 +267,7 @@ button {
     background-color: rgb(68, 68, 68);
     color: rgb(239, 239, 239);
     padding: 1rem;
-    width: 10rem;
+    max-width: 10rem;
     border: 1.5px solid black;
     border-radius: 3.5px;
     filter:drop-shadow(10px 7px 10px black);
@@ -334,8 +327,7 @@ button:hover {
 #contact {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    height: 70vh;
+    flex-direction: column; 
 }
 
 .contact-info-upper-container {
@@ -353,7 +345,7 @@ button:hover {
 
 .contact-icon {
     cursor: pointer;
-    height: 3rem;
+    min-height: 1rem;
 }
 
 .contact-link:hover {
