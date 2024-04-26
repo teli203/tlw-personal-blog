@@ -279,7 +279,7 @@ button:hover {
 }
 
 .about-container {
-    display: center;
+    display: flex;
     justify-content: center;
     border: 1.4rem solid black;
     border-radius: 2rem;
@@ -307,7 +307,6 @@ button:hover {
     align-items: center;
     padding: 15px;
 }
-
 
 .follow-container {
     display: center;
@@ -365,3 +364,50 @@ button:hover {
     filter:drop-shadow(3px 3px 3px rgb(233, 232, 232));
     margin-bottom: 15rem;
 }
+
+
+
+
+/* if you attempt to hit restart btn and go the grid layout wrapper route 
+use the test project code. Granted the 1fr is a bit insane, but replace with 
+repeat (3 or 4, 125px)
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 40px 30px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Header Header Header"
+    "Image-1 Text Text"                         Img-1 would be ??? img
+    "Image-2 Text Text"                         Img-2 would be crying coder img
+    "about-me-img about-me-img about-me-img"    This would be for the blog-card requirement
+    "bio bio bio"
+    "subscribe subscribe subscribe"
+    "follow follow follow"
+    "Contact Contact Contact"
+    "WoE WoE WoE"
+    "Footer Footer Footer";
+}
+
+.Header { grid-area: Header; }
+
+.Footer { grid-area: Footer; }
+
+.Image-1 { grid-area: Image-1; }
+
+.Image-2 { grid-area: Image-2; }
+
+.Text { grid-area: Text; }
+
+.about-me-img { grid-area: about-me-img; }
+
+.bio { grid-area: bio; }
+
+.subscribe { grid-area: subscribe; }
+
+.follow { grid-area: follow; }
+
+.Contact { grid-area: Contact; }
+
+.WoE { grid-area: WoE; }
+*/
