@@ -1,0 +1,38 @@
+@media screen and (max-width: 320px) {
+.nav-links {
+    flex-direction: column;
+    gap: 0.3rem;
+    text-align: center;
+    }
+ }
+ .logo {
+    font-size: 1rem;
+ }
+ .section_pic_container {
+    flex-direction: column;
+    width: auto;
+ }
+ .img {
+    display: block;
+    max-width: 100%;
+ }
+ 
+ @media screen and (min-width: 321px) and (max-width: 600px) {
+    .nav-links {
+       flex-direction: column;
+       gap: 0.5rem;
+       text-align: center;
+       font-size: 1rem;
+     }
+    }
+    .logo {
+       font-size: 2rem;
+    }
+    .section_pic_container {
+       flex-direction: column;
+       width: auto;
+    }
+    .img {
+       display: block;
+       max-width: 100%;
+    }
