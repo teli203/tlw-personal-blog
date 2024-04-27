@@ -178,7 +178,7 @@ button:hover {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border: 5px solid black;
+    border: 2px solid black;
     box-shadow: 0 6px 0 6px black;
     filter:drop-shadow(10px 7px 10px rgb(233, 232, 232));
 }
@@ -190,11 +190,12 @@ button:hover {
     display: inline-block;
 }
 
+
 /* open wide screen to make sure grid are on the rigth track */
 
 /* Body Grid 2  */
 
-/*.box_arti {
+.box_arti {
     display: flex;
     text-align: center;
     align-items: center;
@@ -206,17 +207,17 @@ button:hover {
     margin-bottom: 15px;
 }
 
-.sec-ct-2 {
+.sec-ct-2 { 
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: repeat(2, 2fr);
     grid-auto-rows: minmax(250px, auto);
     gap: 250px;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center; 
     border: 2.5px solid black;
     box-shadow: 0 6px 0 6px black;
     padding: 20px;
-}*/
+}
 
 #blg-1 {
     grid-column: span 2;
