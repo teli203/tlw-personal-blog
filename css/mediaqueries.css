@@ -5,6 +5,7 @@
       text-align: center;
    }
 }
+/*
 .logo {
    font-size: 1rem;
 }
@@ -15,7 +16,7 @@
 .img {
    display: block;
    max-width: 100%;
-}
+}*/
 
 @media screen and (min-width: 321px) and (max-width: 600px) {
    .nav-links {
@@ -25,6 +26,7 @@
       font-size: 1rem;
     }
    }
+   /* 
    .logo {
       font-size: 2rem;
    }
