@@ -1,9 +1,6 @@
 /* General */
 
-* {
-    margin: 0px;
-    padding: 10px;  
-}
+
 
 .container {
     overflow: hidden;
@@ -147,8 +144,8 @@ section {
 
 .section_pic_container img {                    /* Question mark img & Crying Coder */
     position: relative;
-    left: -215px;
-    min-height: 50vh;
+    left: -95px;
+    min-height: 25rem; /* come back to this and see what can and can't be done */
     width: 100%;
     padding-top: 50px;
     margin: 50px;
