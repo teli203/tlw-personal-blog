@@ -1,4 +1,4 @@
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {          /* fine tune this after adjustments and add title size */
 .nav-links {
     flex-direction: column;
     gap: 0.3rem;
@@ -36,4 +36,56 @@
        display: block;
        max-width: 100%;
     }
+
+    .sec-ct-2 {
+      display: grid;
+    }
+
+    @media screen and (min-width: 601px) and (max-width: 900px) {
+      .nav-links {
+         flex-direction: column;
+         gap: 0.5rem;
+         text-align: center;
+         font-size: 1rem;
+       }
+      }
+      .logo {
+         font-size: 2rem;
+      }
+      .section_pic_container {
+         flex-direction: column;
+         width: auto;
+      }
+      .img {
+         display: block;
+         max-width: 100%;
+      }
+  
+      .sec-ct-2 {
+        display: grid;
+      }
+
+      @media screen and (min-width: 901px) and (max-width: 1400px) {
+         .nav-links {
+            flex-direction: column;
+            gap: 0.5rem;
+            text-align: center;
+            font-size: 1rem;
+          }
+         }
+         .logo {
+            font-size: 2rem;
+         }
+         .section_pic_container {
+            flex-direction: column;
+            width: auto;
+         }
+         .img {
+            display: block;
+            max-width: 100%;
+         }
+     
+         .sec-ct-2 {
+           display: flex;
+         }
    
