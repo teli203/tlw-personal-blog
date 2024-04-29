@@ -38,7 +38,7 @@ h6:hover {
 
 .nav-links {
    display: flex;
-   justify-content: space-around;
+   justify-content: space-evenly;
    align-items: center;
    min-height: 10vh;
    padding: 15px;
@@ -302,7 +302,7 @@ button:hover {
 
 .subscribe-email {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 15px;
 }
