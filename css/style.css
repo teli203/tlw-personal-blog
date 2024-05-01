@@ -211,7 +211,7 @@ section {
 
 .icon {
     cursor: pointer;
-    min-height: 1rem;
+    max-height: 1.5rem;
 }
 
 .email-icon {
@@ -223,12 +223,14 @@ section {
 
 input {
     padding: 1rem;
+    margin: .5rem auto;
     max-width: 10rem;
     border: 1.5px solid black;
     border-radius: 3.4px; 
 }
 
 label {
+    display: flexbox;
     font-size: 1.3rem;
 }
 
@@ -344,6 +346,28 @@ button:hover {
     font-style: italic;
     filter:drop-shadow(3px 3px 3px rgb(233, 232, 232));
     margin-bottom: 15rem;
+}
+
+@media(min-width:320px){
+    .home-page-container {
+        display: flexbox;
+        background-color: aquamarine;
+    }
+
+}
+
+@media(min-width:600px) and (max-width: 900px) {
+    .home-page-container {
+        display: flexbox;
+        background-color: rgb(25, 35, 141);
+    }
+}
+
+@media(min-width:901px){
+    .home-page-container {
+        display: flexbox;
+        background-color: rgb(120, 16, 108);
+    }
 }
 
 
