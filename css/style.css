@@ -232,13 +232,8 @@ label {
     font-size: 1.3rem;
 }
 
-/* Button */
 
-.subscribe-container {
-    display: flex;
-    justify-content: center;
-    gap: 4rem;
-}
+/* Button */
 
 button {
     font-weight: 600;
