@@ -1,5 +1,7 @@
 /* General */
-
+*{
+    margin-bottom: .5rem;
+}
 .container {
     overflow: hidden;
 }
@@ -64,7 +66,9 @@ a:hover {
 .dropdown-menu {
     display: none;
     position: absolute;
-    font-size: .9rem;
+    padding-right: 1rem;
+    font-size: .71rem;
+    text-align: left;
     text-decoration: underline;
     text-underline-offset: .6rem;
     background-color: rgb(68, 68, 68);
@@ -73,7 +77,8 @@ a:hover {
 }
 
 .dropdown-menu li {
-    padding: 10px;
+    max-height: 3vh;
+    padding: .3px;
 }
 
 .dropdown-menu li a {
@@ -83,7 +88,9 @@ a:hover {
 }
 
 .dropdown-menu li a:hover {
-    background-color: rgb(148, 145, 143);
+    background-color: rgb(4, 4, 4);
+    padding: .13rem;
+    margin: .12rem;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -96,8 +103,8 @@ a:hover {
 
 #search {
     padding: .5rem;
-    min-height: 3.5vh;
-    max-width: 8rem;
+    max-height: 3.3vh;
+    max-width: 6rem;
     border: 1.5px solid black;
     border-radius: 3.4px; 
 }
@@ -337,11 +344,10 @@ button:hover {
 .footer-container {
     display: center;
     justify-content: center;
-    border: .2rem solid black;
-    border-radius: 2rem;
+    padding: 20px;
     border: 2.5px solid black;
-    box-shadow: 0 7px 0 7px black;
-    filter:drop-shadow(10px 8px 10px rgb(249, 248, 248));
+    box-shadow: 0 6px 0 6px black;
+    filter:drop-shadow(10px 7px 10px rgb(233, 232, 232));
 }
 
 #quote {
