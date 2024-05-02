@@ -1,6 +1,94 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 3fr 5fr 5fr 8fr 4fr 2fr;
+    gap: 100px 50px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "head head head head"
+      "intro intro intro intro"
+      "web-dev web-dev web-dev web-dev"
+      "guest guest guest guest"
+      "learn learn tech tech"
+      "archive archive archive archive"
+      "footer footer footer footer";
+  }
+  
+  .head { grid-area: head; }
+  
+  .intro { grid-area: intro; }
+  
+  .web-dev { grid-area: web-dev; }
+  
+  .guest { grid-area: guest; }
+  
+  .learn { grid-area: learn; }
+  
+  .tech { grid-area: tech; }
+  
+  .archive { grid-area: archive; }
+  
+  .footer { grid-area: footer; }
+  
+  #box-1 {
+    border: 1px solid black;
+  }
+  #box-2 {
+    border: 1px solid black;
+  } 
+  #box-3 {
+    border: 1px solid black;
+  } 
+  #box-4 {
+    border: 1px solid black;
+  } 
+  #box-5 {
+    border: 1px solid black;
+  } 
+  #box-6 {
+    border: 1px solid black;
+  } 
+  #box-7 {
+    border: 1px solid black;
+  } 
+  #box-8 {
+    border: 1px solid black;
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* General */
 
-.container {
+/*.container {
     overflow: hidden;
 }
 
@@ -15,7 +103,7 @@ body {
     background: linear-gradient(to right, rgb(182, 181, 181), rgb(110, 97, 79), rgb(137, 119, 94));
 }
 
-.text-article {
+/*.text-article {
     font-weight: 400;
     font-family: 'Panchang', sans-serif;
     max-width: 600px;
@@ -37,7 +125,7 @@ span {
 }
 /* header Grid 1*/
 
-#blg-0 {
+/*#blg-0 {
     grid-column: 1 / -1; 
 
 }
@@ -173,7 +261,7 @@ button:hover {
     box-sizing: border-box;
 }*/
 
-.img {
+/*.img {
     max-width: 50%;
     height: 10%;
     vertical-align: middle;
@@ -185,7 +273,7 @@ button:hover {
 
 /* Body Grid 2  */
 
-.box_arti {
+/*.box_arti {
     display: flex;
     text-align: center;
     align-items: center;
@@ -263,7 +351,7 @@ h3 {
 
 /* guest */
 
-#blg-2 {
+/*#blg-2 {
     grid-column: span 2;
     grid-row: span 2;
 }
@@ -305,7 +393,7 @@ h3 {
 
 /* Footer */
 
-.sec-ct-3 {
+/*.sec-ct-3 {
     display: grid;
     margin-bottom: 50px;
     grid-template-columns: span 1 / -1;
@@ -332,4 +420,19 @@ h3 {
     padding: 15px;
 }
 
+@media(max-width: 320px) {
+.blogs-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 14% 14% 13% 13% 13% 13%;
+    grid-template-areas: 
+    "header"
+    "web-dev"
+    "guest"
+    "learn"
+    "tech"
+    "archive";
+}
+    
 
+}
