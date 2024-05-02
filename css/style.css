@@ -272,10 +272,9 @@ button:hover {
     justify-content: center;
     border: 1.4rem solid black;
     border-radius: 2rem;
-    background:rgb(250, 250, 250);
-    color: rgb(0, 0, 0);
+    background:rgb(250 250 250);
     margin: 2rem auto;
-    padding: 0.5rem;
+    padding: 1.5rem;
     filter:drop-shadow(10px 7px 10px black);
 }
 
