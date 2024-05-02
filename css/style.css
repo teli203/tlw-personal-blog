@@ -1,5 +1,5 @@
 /* General */
-*{
+* {
     margin-bottom: .5rem;
 }
 .container {
@@ -19,6 +19,8 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+/* Nav */
 
 .logo {
     display: flexbox;
@@ -143,17 +145,19 @@ section {
     filter:drop-shadow(10px 7px 10px black); 
 }
 
-#question {                    /* Question mark img */
+#question {                         /* Question mark img */
     display: block;
     max-height: 60vh;
-    max-width: 100%; /* Adjust this as needed */
+    max-width: 100%; 
     padding: .4rem;
-    margin: 0 auto; /* This will center the image horizontally */
+    margin: 0 auto;                 /* This will center the image horizontally */
     border: 0 solid transparent;
     border-radius: 6.5rem;
     box-shadow: 0 8px 0 8px black;
     filter: drop-shadow(10px 7px 10px black);
 }
+
+/* Blog Card */
 
 .vintage-img {
     display: block;
@@ -167,6 +171,8 @@ section {
     filter: drop-shadow(10px 7px 10px rgb(248, 246, 246));
 }
 
+/* All Things Section Text */
+
 span {
     font-family: 'Telma', cursive;
     font-size: 5rem;
@@ -174,7 +180,7 @@ span {
     margin: .5rem;
 }
 .section_text_p {
-    text-align: justify;
+    text-align: left;
     padding: 1.2rem;
     margin-bottom: 1.2rem;
     font-size: 1.2rem;
@@ -213,6 +219,8 @@ span {
     font-family: 'Melodrama', serif;
 }
 
+/* Icons */
+
 .icon:hover {
     border-radius: .5rem;
     background-color: rgb(190, 177, 158);
@@ -224,12 +232,21 @@ span {
     max-height: 1.5rem;
 }
 
+.icon_ft {
+    min-height: 2rem;
+}
+
+.icon_ft:hover {
+    border-radius: .5rem;
+    background-color: rgb(190, 177, 158);
+}
+
+/* Email */
+
 .email-icon {
     cursor: pointer;
     min-height: 2rem;
 }
-
-/* Email */
 
 input {
     padding: 1rem;
@@ -243,7 +260,6 @@ label {
     display: flexbox;
     font-size: 1.3rem;
 }
-
 
 /* Button */
 
@@ -267,6 +283,8 @@ button:hover {
     color: whitesmoke;
 }
 
+/* About */
+
 .about-container {
     display: flex;
     justify-content: center;
@@ -278,6 +296,7 @@ button:hover {
     filter:drop-shadow(10px 7px 10px black);
 }
 
+/* Subscribe & Follow */
 .subscribe-email-container { 
     display: block;
     max-width: 100%; 
@@ -310,6 +329,8 @@ button:hover {
     filter:drop-shadow(10px 7px 10px black);
 }
 
+/* Contact */
+
 #contact {
     display: flex;
     justify-content: center;
@@ -340,6 +361,8 @@ button:hover {
     background-color: rgb(68, 68, 68);
 }
 
+/* Footer */
+
 .footer-container {
     display: center;
     justify-content: center;
@@ -356,16 +379,29 @@ button:hover {
     margin-bottom: 15rem;
 }
 
+/* Media Query */
+
 @media(min-width:320px){
     .home-page-container {
         display: flexbox;
     }
-
+    .nav-links {
+        font-size: .83rem;
+    }
+    .icon {
+        max-height: .87rem;
+    }
 }
 
 @media(min-width:600px) and (max-width: 900px) {
     .home-page-container {
         display: flexbox;
+    }
+    .icon {
+        max-height: 2rem;
+    }
+    .section_text {
+        margin: 1rem .7rem;
     }
 }
 
@@ -373,51 +409,10 @@ button:hover {
     .home-page-container {
         display: flexbox;
     }
+    .nav-links {
+        font-size: 1.3rem;
+    }
+    .icon {
+        max-height: 3rem;
+    }
 }
-
-
-
-
-/* if you attempt to hit restart btn and go the grid layout wrapper route 
-use the test project code. Granted the 1fr is a bit insane, but replace with 
-repeat (3 or 4, 125px)
-.container {  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 40px 30px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "Header Header Header"
-    "Image-1 Text Text"                         Img-1 would be ??? img
-    "Image-2 Text Text"                         Img-2 would be crying coder img
-    "about-me-img about-me-img about-me-img"    This would be for the blog-card requirement
-    "bio bio bio"
-    "subscribe subscribe subscribe"
-    "follow follow follow"
-    "Contact Contact Contact"
-    "WoE WoE WoE"
-    "Footer Footer Footer";
-}
-
-.Header { grid-area: Header; }
-
-.Footer { grid-area: Footer; }
-
-.Image-1 { grid-area: Image-1; }
-
-.Image-2 { grid-area: Image-2; }
-
-.Text { grid-area: Text; }
-
-.about-me-img { grid-area: about-me-img; }
-
-.bio { grid-area: bio; }
-
-.subscribe { grid-area: subscribe; }
-
-.follow { grid-area: follow; }
-
-.Contact { grid-area: Contact; }
-
-.WoE { grid-area: WoE; }
-*/
