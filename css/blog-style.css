@@ -86,9 +86,9 @@
 
 
 
-/* General */
 
-/*.container {
+
+.container {
     overflow: hidden;
 }
 
@@ -103,7 +103,7 @@ body {
     background: linear-gradient(to right, rgb(182, 181, 181), rgb(110, 97, 79), rgb(137, 119, 94));
 }
 
-/*.text-article {
+.text-article {
     font-weight: 400;
     font-family: 'Panchang', sans-serif;
     max-width: 600px;
@@ -154,7 +154,7 @@ span {
     font-family: 'Melodrama', serif;
     font-size: 50px;
     padding: 15px;
-}
+}*/
 
 #titles {
     display: flex;
@@ -261,7 +261,7 @@ button:hover {
     box-sizing: border-box;
 }*/
 
-/*.img {
+.img {
     max-width: 50%;
     height: 10%;
     vertical-align: middle;
@@ -300,7 +300,7 @@ button:hover {
 #blg-1 {
     grid-column: span 2;
     grid-row: span 2;
-}
+}*/
 
 .avatar-pic {
     display: block;
@@ -354,7 +354,7 @@ h3 {
 /*#blg-2 {
     grid-column: span 2;
     grid-row: span 2;
-}
+}*/
 
 .avatar-pic-2 {
     display: block;
@@ -374,7 +374,7 @@ h3 {
     padding: 2.1rem;
 }
 
-#blg-3 {
+/*#blg-3 {
     grid-column: span 2;
 }
 
