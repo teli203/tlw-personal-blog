@@ -5,6 +5,9 @@
 }
 
 body {
+    font-family: 'Melodrama', serif;
+    font-family: 'Telma', cursive;
+    font-family: 'General Sans', sans-serif;
     font-family: 'Kalam', cursive;
     font-family: 'Panchang', sans-serif;
     font-weight: 450;
@@ -157,6 +160,12 @@ section {
     filter: drop-shadow(10px 7px 10px rgb(248, 246, 246));
 }
 
+span {
+    font-family: 'Telma', cursive;
+    font-size: 5rem;
+    font-weight: 350;
+    margin: .5rem;
+}
 .section_text_p {
     text-align: justify;
     padding: 1.2rem;
