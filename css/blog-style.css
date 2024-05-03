@@ -134,7 +134,7 @@ button:hover {
     display: none;
     position: absolute;
     font-size: .8rem;
-    text-align: top;
+    text-align: left;
     text-decoration: underline;
     text-underline-offset: .6rem;
     background-color: rgb(68, 68, 68);
@@ -290,7 +290,7 @@ p {
 
 .learn { 
     grid-area: learn; 
-    text-align: left;
+    text-align: justify;
     align-items: center;
     justify-content: center;
     font-family: 'Panchang', sans-serif;
@@ -304,7 +304,7 @@ p {
 
 .tech { 
     grid-area: tech;
-    text-align: left;
+    text-align: justify;
     align-items: center;
     justify-content: center;
     font-family: 'Panchang', sans-serif;
