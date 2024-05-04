@@ -381,17 +381,41 @@ button:hover {
 }
 
 /* Media Query */
-
-@media(min-width:320px){
-    .home-page-container {
+@media screen and (max-width: 600px) {
+    body {
+        background: blue;
         display: flexbox;
+        font-size: .7rem;
+        font-weight: 500;
     }
+
+    .section_text_p,
+    .section_text_p1,
+    .section_text_p2,
+    .section_text_p3,
+    .section_text_p4 {
+        font-family: 'Melodrama', serif;
+        font-size: .9rem;
+        text-align: left;
+        columns: 200px 2;
+        column-gap: 30px;
+        padding: 25px;
+        font-weight: 425;
+    }
+
     .nav-links {
-        font-size: .83rem;
-    }
+        flex-direction: column;
+        gap: .9rem;
+        text-align: center;
+      }
     .icon {
         max-height: .87rem;
     }
+
+    .container {
+        background: none;
+    }
+    
 }
 
 @media(min-width:600px) and (max-width: 900px) {
