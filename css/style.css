@@ -1,5 +1,61 @@
 /* General */
-* {
+
+.home-container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: .03fr 1fr 1fr 1fr 1fr 1fr 1fr .03fr;
+    gap: 45px 45px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "head head head head"
+      "checklist checklist checklist checklist"
+      "blog-post-card blog-post-card blog-post-card blog-post-card"
+      "subscribe subscribe subscribe subscribe"
+      "follow follow follow follow"
+      "contact contact contact contact"
+      "woe woe woe woe"
+      "footer footer footer footer";
+  }
+  
+  .head { 
+    grid-area: head; 
+}
+  
+  .checklist { 
+    grid-area: checklist; 
+}
+  
+  .blog-post-card { 
+    grid-area: blog-post-card; 
+}
+  
+  .subscribe { 
+    grid-area: subscribe; 
+}
+  
+  .follow { 
+    grid-area: follow; 
+}
+  
+  .contact { 
+    grid-area: contact; 
+}
+  
+  .woe { 
+    grid-area: woe; 
+}
+  
+  .footer { 
+    grid-area: footer; 
+}
+  
+
+
+
+
+
+
+/* {
     margin-bottom: .5rem;
 }
 .container {
@@ -22,7 +78,7 @@ html {
 
 /* Nav */
 
-.logo {
+/*.logo {
     display: flexbox;
     text-align: center;
     justify-content: center;
@@ -122,7 +178,7 @@ a:hover {
 
 /* Sections */
 
-section {
+/*section {
     padding-top: 4.5rem;
     padding-bottom: 2rem;
     margin: 0 8rem;
@@ -130,7 +186,7 @@ section {
 
 /* Profile Section */
 
-#profile {
+/*#profile {
   gap: 5rem; 
 }
 
@@ -145,13 +201,13 @@ section {
     filter:drop-shadow(10px 7px 10px black); 
 }
 
-#question {                         /* Question mark img */
+#question {                         
     display: block;
     max-height: 60vh;
     max-width: 100%; 
     padding: .4rem;
     margin: 0 auto;                 /* This will center the image horizontally */
-    border: 0 solid transparent;
+    /*border: 0 solid transparent;
     border-radius: 6.5rem;
     box-shadow: 0 8px 0 8px black;
     filter: drop-shadow(10px 7px 10px black);
@@ -159,7 +215,7 @@ section {
 
 /* Blog Card */
 
-.vintage-img {
+/*.vintage-img {
     display: block;
     max-height: 60vh;
     max-width: 100%; 
@@ -173,7 +229,7 @@ section {
 
 /* All Things Section Text */
 
-span {
+/*span {
     font-family: 'Telma', cursive;
     font-size: 5rem;
     font-weight: 350;
@@ -221,7 +277,7 @@ span {
 
 /* Icons */
 
-.icon:hover {
+/*.icon:hover {
     border-radius: .5rem;
     background-color: rgb(190, 177, 158);
 }
@@ -243,7 +299,7 @@ span {
 
 /* Email */
 
-.email-icon {
+/*.email-icon {
     cursor: pointer;
     min-height: 2rem;
 }
@@ -263,7 +319,7 @@ label {
 
 /* Button */
 
-button {
+/*button {
     font-weight: 600;
     background-color: rgb(68, 68, 68);
     color: rgb(239, 239, 239);
@@ -285,7 +341,7 @@ button:hover {
 
 /* About */
 
-.about-container {
+/*.about-container {
     display: flex;
     justify-content: center;
     border: 1.4rem solid black;
@@ -298,7 +354,7 @@ button:hover {
 
 
 /* Subscribe & Follow */
-.subscribe-email-container { 
+/*.subscribe-email-container { 
     display: block;
     max-width: 100%; 
     margin: 0 auto; 
@@ -332,7 +388,7 @@ button:hover {
 
 /* Contact */
 
-#contact {
+/*#contact {
     display: flex;
     justify-content: center;
     flex-direction: column; 
@@ -364,7 +420,7 @@ button:hover {
 
 /* Footer */
 
-.footer-container {
+/*.footer-container {
     display: center;
     justify-content: center;
     padding: 20px;
@@ -381,7 +437,7 @@ button:hover {
 }
 
 /* Media Query */
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
     body {
         background: blue;
         display: flexbox;
