@@ -27,22 +27,6 @@ body {
       "footer footer footer footer";
   }
   
-  .head { grid-area: head; }
-  
-  .intro { grid-area: intro; }
-  
-  .web-dev { grid-area: web-dev; }
-  
-  .guest { grid-area: guest; }
-  
-  .learn { grid-area: learn; }
-  
-  .tech { grid-area: tech; }
-  
-  .archive { grid-area: archive; }
-  
-  .footer { grid-area: footer; }
-  
 
 .html {
     scroll-behavior: smooth;
@@ -106,7 +90,7 @@ a {
 a:hover {
     color: rgb(215, 213, 213);
     text-decoration: underline;
-    text-underline-offset: .6rem;
+    text-underline-offset: .3rem;
     filter:drop-shadow(10px 7px 10px black);
 }
 
