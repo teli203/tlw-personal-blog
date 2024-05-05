@@ -42,6 +42,7 @@ html {
   
 .checklist { 
     grid-area: checklist;
+    margin: .5rem;
     
 }
   
@@ -63,6 +64,7 @@ html {
   
 .subscribe { 
     grid-area: subscribe;
+    margin: .5rem;
     
 }
   
@@ -73,6 +75,7 @@ html {
   
 .contact { 
     grid-area: contact;
+    margin: .5rem;
       
 }
   
