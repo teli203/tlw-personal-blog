@@ -326,21 +326,45 @@ p {
     margin-top: 15rem;
 }
 
-/* @media(max-width: 320px) {
-.container {
+@media(max-width: 320px) {
+    .container {  
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2% 7% 5% 5% 5% 5% 2%;
+        grid-template-areas:
+          "head"
+          "intro"
+          "web-dev"
+          "guest"
+          "learn"
+          "tech"
+          "archive"
+          "footer";
+      }
+      #titles {
+        font-size: 3rem
+      }
+
+      .nav-links {
+        display: ;
+      }
+    
+    }
+
+ @media(max-width: 600px) { /* add the 320px to this */
+.container {  
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 14% 14% 13% 13% 13% 13%;
-    grid-template-areas: 
-    "head"
-    "intro"
-    "web-dev"
-    "guest"
-    "learn"
-    "tech"
-    "archive"
-    "footer";
-    background-color: red;
-}
+    grid-template-rows: 0.2fr 0.7fr 0.5fr 0.5fr 0.5fr 0.5fr 0.2fr;
+    grid-template-areas:
+      "head"
+      "intro"
+      "web-dev"
+      "guest"
+      "learn"
+      "tech"
+      "archive"
+      "footer";
+  }
 
 }
