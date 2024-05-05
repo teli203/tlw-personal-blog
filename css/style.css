@@ -34,63 +34,11 @@ html {
       "woe woe woe woe"
       "closing closing closing closing";
   }
-  
+
 .opening { 
-    grid-area: opening;
-     
-}
-  
-.checklist { 
-    grid-area: checklist;
-    margin: .5rem;
-    
-}
-  
-.blog-post-card { 
-    grid-area: blog-post-card;
-   
+    grid-area: opening;    
 }
 
-.about-details { 
-    grid-area: about-details;
-    text-align: justify;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    border: 2.5px solid black;
-    box-shadow: 0 6px 0 6px black;
-    filter:drop-shadow(10px 7px 10px rgb(233, 232, 232));  
-}
-  
-.subscribe { 
-    grid-area: subscribe;
-    margin: .5rem;
-    
-}
-  
-.follow { 
-    grid-area: follow;
-     
-}
-  
-.contact { 
-    grid-area: contact;
-    margin: .5rem;
-      
-}
-  
-.woe { 
-    grid-area: woe;
-     
-}
-  
-.closing { 
-    grid-area: closing;
-    border: 2.5px solid black;
-    box-shadow: 0 6px 0 6px black;
-    filter:drop-shadow(10px 7px 10px rgb(233, 232, 232));  
-}
-  
 .logo {
     display: center;
     text-align: center;
@@ -191,12 +139,17 @@ a:hover {
 
 /* Checklist */
 
+.checklist { 
+    grid-area: checklist;
+    margin: .5rem;  
+}
+
 #question {                         
     display: block;
     max-height: 60vh;
     max-width: 100%; 
     padding: .4rem;
-    margin: 0 auto;                 /* This will center the image horizontally */
+    margin: 0 auto;               
     border: 0 solid transparent;
     border-radius: 6.5rem;
     box-shadow: 0 8px 0 8px black;
@@ -216,6 +169,10 @@ a:hover {
 
 /* Blog Card */
 
+.blog-post-card { 
+    grid-area: blog-post-card;
+}
+
 #vintage-img {
     display: block;
     max-height: 60vh;
@@ -227,6 +184,8 @@ a:hover {
     box-shadow: 0 8px 0 8px black;
     filter: drop-shadow(10px 7px 10px rgb(248, 246, 246));
 }
+
+/* Section Pgh details */
 
 .section_text_p {
     text-align: left;
@@ -290,24 +249,9 @@ a:hover {
     background-color: rgb(190, 177, 158);
 }
 
-/* Email */
-
 .email-icon {
     cursor: pointer;
     min-height: 2rem;
-}
-
-input {
-    padding: 1rem;
-    margin: .5rem auto;
-    max-width: 10rem;
-    border: 1.5px solid black;
-    border-radius: 3.4px; 
-}
-
-label {
-    display: flexbox;    /* ? */
-    font-size: 1.3rem;
 }
 
 /* Button */
@@ -334,19 +278,29 @@ button:hover {
 
 /* About */
 
-.about-container {
-    display: flex; 
+.about-details { 
+    grid-area: about-details;
+    display: block; 
+    max-width: 100%;
+    padding: 0.9rem;
+    margin: 2.5rem auto;
+    color: rgb(230, 229, 229);
+    text-align: justify;
+    align-items: center;
     justify-content: center;
-    border: 1.4rem solid black;
-    border-radius: 2rem;
-    background:rgb(250 250 250);
-    margin: 2rem auto;
-    padding: 1.5rem;
-    filter:drop-shadow(10px 7px 10px black);
+    background: rgb(50, 50, 50);
+    border: 2.5px solid black;
+    box-shadow: 0 6px 0 6px black;
+    filter:drop-shadow(10px 7px 10px rgb(233, 232, 232));
 }
 
-/* Subscribe & Follow */
-.subscribe-email-container { 
+/* Subscribe */
+
+.subscribe { 
+    grid-area: subscribe;
+}
+
+.subscribe-email-container {
     display: block; 
     max-width: 100%; 
     margin: 0 auto; 
@@ -366,27 +320,84 @@ button:hover {
     padding: 15px; 
 }
 
-.follow-container {
-    display: block; 
-    max-width: 100%; 
-    margin: 0 auto;
-    border: .2rem solid black;
-    border-radius: 2rem;
-    background:rgb(250 250 250);
-    margin: 2rem auto;
-    padding: 0.5rem;
-    filter:drop-shadow(10px 7px 10px black);
+/* Email */
+
+input {
+    padding: 1rem;
+    margin: .5rem auto;
+    max-width: 10rem;
+    border: 1.5px solid black;
+    border-radius: 3.4px; 
+}
+
+label {
+    display: flexbox;    /* ? */
+    font-size: 1.3rem;
+}
+
+/* Follow */
+
+.follow { 
+    grid-area: follow;
+}
+
+.socials {
+        display: block; 
+        max-width: 100%; 
+        margin: 0 auto;
+        border: .2rem solid black;
+        border-radius: 2rem;
+        background:rgb(250 250 250);
+        margin: 2rem auto;
+        padding: 0.5rem;
+        filter:drop-shadow(10px 7px 10px black); 
 }
 
 /* Contact */
 
-#contact {
+.contact { 
+    grid-area: contact;
+}
+
+.contact-info-upper {
+    display: block; 
+    max-width: 100%; 
+    margin: 0 auto;
+    text-align: center;
+    border: .2rem solid black;
+    border-color: black;
+    background: whitesmoke;
+    border-radius: 4rem;
+    margin: 2rem auto;
+    padding: 0.5rem;
+    filter:drop-shadow(10px 7px 10px black);  
+}
+
+#reach-out {
     display: flex; 
     justify-content: center;
     flex-direction: column; 
 }
 
-.contact-info-upper-container {
+
+
+.contact-icon {
+    cursor: pointer;
+    min-height: 1rem;
+}
+
+.contact-link:hover {
+    border-radius: .3rem;
+    background-color: rgb(68, 68, 68);
+}
+
+/* Words of Encouragement */
+
+.woe { 
+    grid-area: woe;  
+}
+
+.encourage {
     display: block; 
     max-width: 100%; 
     margin: 0 auto;
@@ -400,25 +411,13 @@ button:hover {
     filter:drop-shadow(10px 7px 10px black);
 }
 
-.contact-icon {
-    cursor: pointer;
-    min-height: 1rem;
-}
-
-.contact-link:hover {
-    border-radius: .3rem;
-    background-color: rgb(68, 68, 68);
-}
-
 /* Footer */
 
-.footer-container {
-    display: center; 
-    justify-content: center;
-    padding: 20px;
+.closing { 
+    grid-area: closing;
     border: 2.5px solid black;
     box-shadow: 0 6px 0 6px black;
-    filter:drop-shadow(10px 7px 10px rgb(233, 232, 232));
+    filter:drop-shadow(10px 7px 10px rgb(233, 232, 232)); 
 }
 
 #quote {
