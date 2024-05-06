@@ -297,12 +297,12 @@ button:hover {
     display: block; 
     max-width: 100%;
     padding: 0.9rem;
-    margin: 2.5rem auto;
+    margin: 1.2rem;
     color: rgb(230, 229, 229);
     text-align: justify;
     align-items: center;
     justify-content: center;
-    background: rgb(50, 50, 50);
+    background: rgb(68, 68, 68);
     border: 2.5px solid black;
     box-shadow: 0 6px 0 6px black;
     filter:drop-shadow(10px 7px 10px rgb(233, 232, 232));
