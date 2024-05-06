@@ -326,9 +326,54 @@ p {
     margin-top: 15rem;
 }
 
+/* Media Queries */
 
+@media (max-width: 575px) { 
 
- @media(max-width: 700px) { /* add the 320px to this */
+    .container {  
+        display: block;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 0.7fr 0.5fr 0.5fr 0.5fr 0.5fr 0.2fr;
+        grid-template-areas:
+          "head"
+          "intro"
+          "web-dev"
+          "guest"
+          "learn"
+          "tech"
+          "archive"
+          "footer";
+      }
+    
+      #titles,
+      .greeting {
+        font-size: 2rem;
+      }
+    
+      .box-text,
+      .end {
+        font-size: .9rem;
+      }
+    
+    .nav-links,
+    .nav-links_hd-ft {
+        display: block;
+        text-align: center;
+        font-size: .9rem;
+        margin-top: 0;
+    }
+    
+    button {
+        font-size: .6rem;
+        height: 1.4rem;
+        text-align: center;
+        padding-top: .29rem;
+    }
+    
+    }
+    
+
+ @media (min-width: 576px) and (max-width: 800px) { /* add the 320px to this */
 
 .container {  
     display: grid;
@@ -343,7 +388,6 @@ p {
       "tech"
       "archive"
       "footer";
-      background: rgb(138, 113, 89);
   }
 
   #titles,
@@ -370,5 +414,4 @@ button {
     text-align: center;
     padding-top: .4rem;
 }
-
 }
