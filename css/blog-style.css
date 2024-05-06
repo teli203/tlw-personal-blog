@@ -162,7 +162,7 @@ p {
     grid-area: head; 
 }
 
-#box-1 {
+#b_x-1 {
     border: .5rem solid black;
 }
 
@@ -318,7 +318,7 @@ p {
     grid-area: footer;
 }
 
-#box-8 {
+#b_x-8 {
     border: .5rem solid black;
   }
 
