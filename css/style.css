@@ -498,6 +498,10 @@ label {
     width: 60vw;
   }
 
+  #title-catcher {
+    font-size: 2rem;
+}
+
   .section_text_p,
     .section_text_p1,
     .section_text_p2,
