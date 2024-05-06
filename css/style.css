@@ -294,7 +294,8 @@ button:hover {
 
 .about-details { 
     grid-area: about-details;
-    display: block; 
+    display: block;
+    font-family: 'General Sans', sans-serif; 
     max-width: 100%;
     padding: 0.9rem;
     margin: 1.2rem;
