@@ -162,7 +162,7 @@ span {
     max-height: 60vh;
     max-width: 100%; 
     padding: .4rem;
-    margin: 0 auto; 
+    margin: 2rem auto; 
     margin-bottom: 9rem;              
     border: 0 solid transparent;
     border-radius: 6.5rem;
@@ -313,6 +313,7 @@ button:hover {
 
 .subscribe { 
     grid-area: subscribe;
+    margin: 1rem;
 }
 
 .subscribe-email-container {
@@ -354,6 +355,7 @@ label {
 
 .follow { 
     grid-area: follow;
+    margin: 1rem;
 }
 
 .socials {
@@ -372,6 +374,7 @@ label {
 
 .contact { 
     grid-area: contact;
+    margin: 1rem;
 }
 
 .contact-info-upper {
