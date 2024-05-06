@@ -137,6 +137,19 @@ a:hover {
     border-radius: 3.4px;  
 }
 
+.section_text_p2 {
+    columns: 200px 2;
+    column-gap: 30px;
+    padding: 25px;
+    font-weight: 425;
+}
+
+span {
+    font-family: 'Telma', cursive;
+    font-size: 3.5rem;
+    font-weight: 200;
+}
+
 /* Checklist */
 
 .checklist { 
