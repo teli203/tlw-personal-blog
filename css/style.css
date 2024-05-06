@@ -255,7 +255,7 @@ span {
 }
 
 .icon_ft {
-    min-height: 2rem;
+    max-height: 2.5rem;
 }
 
 .icon_ft:hover {
@@ -446,67 +446,79 @@ label {
 }
 
 
+@media (max-width: 600px) { 
+.home-container {  
+    display: block;
+    grid-template-columns: 1fr;
+    grid-template-rows: .03fr 1fr 1fr .06fr .09fr .06fr .06fr 1fr .03fr;
+    gap: 15rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "opening"
+      "checklist"
+      "blog-post-card"
+      "about-details"
+      "subscribe"
+      "follow"
+      "contact"
+      "woe"
+      "closing";
+  }
+  .opening,
+  .checklist,
+  .blog-post-card,
+  .about-details,
+  .subscribe,
+  .follow,
+  .contact,
+  .woe {
+    margin-bottom: 10rem;
+  }
 
+  .woe {
+    margin: .7rem;
+  }
 
+  .logo {
+    font-size: 3rem;
+  }
 
-/* Media Query */
-/*@media screen and (max-width: 600px) {
-    body {
-        background: blue;
-        display: flexbox;
-        font-size: .7rem;
-        font-weight: 500;
-    }
+  button {
+    font-size: .6rem;
+    height: 2rem;
+    text-align: center;
+    padding-top: .6rem;
+}
 
-    .section_text_p,
+  #question {
+    width: 70vw;
+  }
+
+  #vintage-img {
+    width: 60vw;
+  }
+
+  .section_text_p,
     .section_text_p1,
     .section_text_p2,
-    .section_text_p3,
-    .section_text_p4 {
-        font-family: 'Melodrama', serif;
-        font-size: .9rem;
-        text-align: left;
-        columns: 200px 2;
-        column-gap: 30px;
+    .section_text_p3 {
+        font-size: 1rem;
+        text-align: justify;
         padding: 25px;
-        font-weight: 425;
+        font-weight: 400;
     }
 
     .nav-links {
-        flex-direction: column;
-        gap: .9rem;
+        display: block;
         text-align: center;
-      }
-    .icon {
-        max-height: .87rem;
+        font-size: .9rem;
+        margin-top: 0;
     }
 
-    .container {
-        background: none;
-    }
-    
+   #socials,
+   #sources {
+    display: flex;
+   }
+
 }
 
-@media(min-width:600px) and (max-width: 900px) {
-    .home-page-container {
-        display: flexbox;
-    }
-    .icon {
-        max-height: 2rem;
-    }
-    .section_text {
-        margin: 1rem .7rem;
-    }
-}
-
-@media(min-width:901px){
-    .home-page-container {
-        display: flexbox;
-    }
-    .nav-links {
-        font-size: 1.3rem;
-    }
-    .icon {
-        max-height: 3rem;
-    }
-}
