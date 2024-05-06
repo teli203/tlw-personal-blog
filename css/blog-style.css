@@ -99,7 +99,7 @@ button {
     background-color: rgb(4, 4, 4);
     color: rgb(239, 239, 239);
     padding: 1rem;
-    max-width: 10rem;
+    max-width: 5rem;
     border: 1.5px solid black;
     border-radius: 3px;
     filter:drop-shadow(10px 7px 10px black);
@@ -326,32 +326,10 @@ p {
     margin-top: 15rem;
 }
 
-@media(max-width: 320px) {
-    .container {  
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 2% 7% 5% 5% 5% 5% 2%;
-        grid-template-areas:
-          "head"
-          "intro"
-          "web-dev"
-          "guest"
-          "learn"
-          "tech"
-          "archive"
-          "footer";
-      }
-      #titles {
-        font-size: 3rem
-      }
 
-      .nav-links {
-        display: ;
-      }
-    
-    }
 
- @media(max-width: 600px) { /* add the 320px to this */
+ @media(max-width: 700px) { /* add the 320px to this */
+
 .container {  
     display: grid;
     grid-template-columns: 1fr;
@@ -365,6 +343,32 @@ p {
       "tech"
       "archive"
       "footer";
+      background: rgb(138, 113, 89);
   }
+
+  #titles,
+  .greeting {
+    font-size: 2.5rem;
+  }
+
+  .box-text,
+  .end {
+    font-size: .9rem;
+  }
+
+.nav-links,
+.nav-links_hd-ft {
+    display: block;
+    text-align: center;
+    font-size: .9rem;
+    margin-top: 0;
+}
+
+button {
+    font-size: .6rem;
+    height: 1.6rem;
+    text-align: center;
+    padding-top: .4rem;
+}
 
 }
