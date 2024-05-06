@@ -1,2 +1,44 @@
-# tlw-personal-blog
+# ✨✨Telicia's Blog✨✨ 
+
+![Telicia's Blog 2024-05-06 at 1 23 29 PM](https://github.com/teli203/tlw-personal-blog/assets/68035449/2397a420-1138-49a6-beeb-044573ffe286)
+
+🙌 [Telicia's-Blog](https://telicias-blog.netlify.app) 🙌
  
+This is a personal blog website created to share insights, tips, tutorials, and experiences related to web development and technology. The blog covers various topics such as web development, artificial intelligence, design principles, coding challenges, and much more.
+
+Prepping for a website requires a level of designing, before I started my code I decided to map out what I wanted my blog to look like and what it would be used for. When it comes to designing you can go many routes and have a ton of fun making a design. The challenge comes when it is time to code out that design, or even better when the design you made doesn't look as great as you thought it would after all. As a novice front end web developer I took on the task of coding out my own design, and below is a link to show you how I mapped it all out. 
+
+💡 [Design Process](https://github.com/teli203/tlw-personal-blog/files/15224757/tlw-blog.pdf) 💡
+
+# Introduction
+This project is a personal blog website built using HTML, & CSS. It utilizes modern web development practices to create an engaging and informative platform for sharing knowledge and experiences in the field of web development and technology. As I stated above I mapped this out with a design I thought I would like, turns out I didn't like the design once brought to life. It was dark and reclusive in my opinion, not to mention the calculations it takes for pop out sections to work properly. Lets face it for a novice coder that is another challenege that I need to tackle further down my coding journey. In the mixed of this project I decide to do a redesign and tailor this blog more towards my front end web development portfolio.  
+
+🤞 [Telicia-Portfolio](https://telicia-l-watson.netlify.app) 🤞
+
+# Features 💫
+Responsive Design: The website is designed to be responsive and accessible on various devices, including desktops, tablets, and smartphones.
+
+🌟  Navigation: The navigation menu provides easy access to different sections of the website, including about, subscribe, follow, and contact.
+
+🌟  Content Sections: The website includes various content sections such as about, subscribe, follow, contact, blog posts, and words of encouragement.
+
+🌟  Social Media Integration: In the near future users can follow this blog on social media platforms such as LinkedIn, Instagram, Twitter, Facebook, and TikTok.
+
+🌟  Subscription: In the near future visitors will be able to subscribe to this blog to receive updates, insights, and tutorials directly in their inbox.
+
+# Installation 💫
+🌟 Clone the repository: git clone https://github.com/your-username/your-repository.git
+Navigate to the project directory: cd your-repository
+Open the index.html file in your web browser.
+
+# Usage 💫
+Browse different sections of the website using the navigation menu.
+Read blog posts, subscribe to the newsletter, and follow the blog on social media.
+Contact the blog owner for inquiries, collaborations, or to contribute guest posts.
+
+✨✨ Contributing ✨✨
+Unfortunately, contributions aren't needed at this time. I do thank you if this was an intention you had it is greatly appreciated, but this website is to show case my frontend web development skills, and a mock up site for something I might bring to light one day. 
+
+✨ License:
+This project is licensed under the MIT License.
+
