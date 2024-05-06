@@ -446,7 +446,7 @@ label {
 }
 
 
-@media (max-width: 600px) { 
+@media (max-width: 740px) { 
 .home-container {  
     display: block;
     grid-template-columns: 1fr;
