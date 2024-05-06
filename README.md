@@ -1,5 +1,7 @@
 # Telicia's Blog
 
+![Telicia's Blog 2024-05-06 at 1 23 29 PM](https://github.com/teli203/tlw-personal-blog/assets/68035449/2397a420-1138-49a6-beeb-044573ffe286)
+
 [tlw-blog.pdf](https://github.com/teli203/tlw-personal-blog/files/15224757/tlw-blog.pdf)
  
 This is a personal blog website created to share insights, tips, tutorials, and experiences related to web development and technology. The blog covers various topics such as web development, artificial intelligence, design principles, coding challenges, and more.
