@@ -13,7 +13,7 @@ Prepping for a website requires a level of designing, before I started my code I
 Introduction
 This project is a personal blog website built using HTML, & CSS. It utilizes modern web development practices to create an engaging and informative platform for sharing knowledge and experiences in the field of web development and technology. As I stated above I mapped this out with a design I thought I would like, turns out I didn't like the design once brought to life. It was dark and reclusive in my opinion, not to mention the calculations it takes for pop out sections to work properly. Lets face it for a novice coder that is another challenege that I need to tackle further down my coding journey. In the mixed of this project I decide to do a redesign and tailor this blog more towards my front end web development portfolio.  
 
-https://telicia-l-watson.netlify.app
+[telicia-portfolio](https://telicia-l-watson.netlify.app)
 
 Features
 Responsive Design: The website is designed to be responsive and accessible on various devices, including desktops, tablets, and smartphones.
