@@ -347,7 +347,7 @@ input {
 }
 
 label {
-    display: flexbox;    /* ? */
+    display: flexbox;    
     font-size: 1.3rem;
 }
 
@@ -445,6 +445,7 @@ label {
     margin-bottom: 15rem;
 }
 
+/* Media Query */
 
 @media (max-width: 740px) { 
 .home-container {  
@@ -464,6 +465,7 @@ label {
       "woe"
       "closing";
   }
+
   .opening,
   .checklist,
   .blog-post-card,
@@ -485,9 +487,10 @@ label {
 
   button {
     font-size: .6rem;
-    height: 2rem;
+    height: 2.5rem;
+    width: 4rem;
     text-align: center;
-    padding-top: .52rem;
+    padding: .52rem;
 }
 
   #question {
@@ -519,10 +522,22 @@ label {
         margin-top: 0;
     }
 
+    input {
+        padding: 1rem;
+        margin: .5rem auto;
+        max-width: 10rem;
+        border: 1.5px solid black;
+        border-radius: 3.4px; 
+    }
+    
+    label {
+        display: block;    
+        font-size: 1rem;
+    }
+
    #socials,
    #sources {
     display: flex;
    }
-
 }
 
