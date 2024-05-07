@@ -18,13 +18,13 @@ body {
     gap: 50px 50px;
     grid-auto-flow: row;
     grid-template-areas:
-      "head head head head"
+      "top-bar top-bar top-bar top-bar"
       "intro intro intro intro"
       "web-dev web-dev web-dev web-dev"
       "guest guest guest guest"
       "learn learn tech tech"
       "archive archive archive archive"
-      "footer footer footer footer";
+      "bottom-bar bottom-bar bottom-bar bottom-bar";
   }
   
 
@@ -158,8 +158,8 @@ p {
 
 /* Header Section */ 
 
-.head { 
-    grid-area: head; 
+.top-bar { 
+    grid-area: top-bar; 
 }
 
 #b_x-1 {
@@ -314,8 +314,8 @@ p {
 
 /* Footer */
 
-.footer {
-    grid-area: footer;
+.bottom-bar {
+    grid-area: bottom-bar;
 }
 
 #b_x-8 {
@@ -335,14 +335,14 @@ p {
         grid-template-columns: 1fr;
         grid-template-rows: 0.2fr 0.7fr 0.5fr 0.5fr 0.5fr 0.5fr 0.2fr;
         grid-template-areas:
-          "head"
+          "top-bar"
           "intro"
           "web-dev"
           "guest"
           "learn"
           "tech"
           "archive"
-          "footer";
+          "bottom-bar";
       }
     
       #titles,
@@ -380,14 +380,14 @@ p {
     grid-template-columns: 1fr;
     grid-template-rows: 0.2fr 0.7fr 0.5fr 0.5fr 0.5fr 0.5fr 0.2fr;
     grid-template-areas:
-      "head"
+      "top-bar"
       "intro"
       "web-dev"
       "guest"
       "learn"
       "tech"
       "archive"
-      "footer";
+      "bottom-bar";
   }
 
   #titles,
