@@ -1,4 +1,7 @@
 /* General */
+
+@import url('https://api.fontshare.com/v2/css?f[]=melodrama@700&f[]=telma@300,400&f[]=general-sans@200,201&display=swap');
+
 * {
     margin-bottom: .5rem;
 }
