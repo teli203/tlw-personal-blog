@@ -444,8 +444,7 @@ label {
 
 #quote {
     font-weight: 725;
-    font-style: italic;
-    filter:drop-shadow(3px 3px 3px rgb(233, 232, 232));
+    filter:drop-shadow(3px 3px 3px rgb(202, 207, 93));
     margin-bottom: 15rem;
 }
 
