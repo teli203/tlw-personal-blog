@@ -315,7 +315,7 @@ p {
     margin-bottom: 15px;
  }
 
- .ty {
+ .arch-img {
     display: block;
     max-height: 50vh;
     max-width: 35vw;
@@ -330,17 +330,6 @@ p {
     filter:drop-shadow(10px 7px 10px );
  }
 
- .overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.75);
-    overflow: hidden;
-    width: 100%;
-    transform: .5s ease;
- }
-
 /* Footer */
 
 .bottom-bar {
@@ -353,6 +342,19 @@ p {
 
 .end {
     margin-top: 15rem;
+}
+
+.box-text_ft {
+    text-align: justify;
+    margin-bottom: 25px;
+    font-family: 'General Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 750;
+}
+
+.box-text_ft-sig {
+    font-size: 2rem;
+    font-family: 'Telma', cursive;
 }
 
 /* Media Queries */
