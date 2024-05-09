@@ -330,6 +330,17 @@ p {
     filter:drop-shadow(10px 7px 10px );
  }
 
+ .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+    width: 100%;
+    transform: .5s ease;
+ }
+
 /* Footer */
 
 .bottom-bar {
