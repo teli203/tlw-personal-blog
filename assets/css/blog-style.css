@@ -151,8 +151,6 @@ button:hover {
 }
 
 p {
-    columns: 200px 2;
-    column-gap: 30px;
     padding: 25px;
     font-weight: 425;
 }
