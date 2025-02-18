@@ -97,6 +97,13 @@ a:hover {
     background-color: rgb(68, 68, 68);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    border: .1rem solid black;
+    border-radius: 2rem;
+    filter: drop-shadow(10px 7px 10px black);
+}
+
+.dropdown-menu.show {
+    display: block;
 }
 
 .dropdown-menu li {
